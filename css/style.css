@@ -53,7 +53,6 @@ ul {
 .logo-block {
   display: flex;
 
-  margin-right: 50px;
   align-items: center;
 }
 .logo {
@@ -64,7 +63,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
-  margin-right: 50px;
+  margin-right: 93px;
   text-decoration: none;
 }
 .logo-firstwords {
@@ -80,8 +79,8 @@ ul {
   line-height: 1.14;
   color: var(--primary-text-colo);
   text-decoration: none;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 32.4px;
+  padding-bottom: 32.4px;
 }
 
 .nav-links-stud {
@@ -91,8 +90,8 @@ ul {
   line-height: 1.14;
   color: var(--button-wordfirst-color);
   text-decoration: none;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 32.4px;
+  padding-bottom: 32.4px;
 }
 
 .nav-links:hover,
@@ -116,10 +115,11 @@ ul {
 
 /* Hero */
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   background-color: var(--footer-herobgr-color);
 }
 .hero-topic {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -129,9 +129,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
-  margin-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
+
   text-align: center;
 }
 .btn-hero {
@@ -145,9 +143,9 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
-  margin-left: 692px;
-  margin-right: 692px;
-  margin-bottom: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Second section */
@@ -175,6 +173,12 @@ ul {
 .second-part .item-part:not(:last-child) {
   margin-right: 30px;
 }
+.item-part {
+  width: 270px;
+}
+.paramt-section {
+  padding-bottom: 0;
+}
 
 /* Third section */
 .about-us {
@@ -192,13 +196,16 @@ ul {
 .third-blocks .three-item:not(:last-child) {
   margin-right: 30px;
 }
+.picter-four {
+  display: block;
+}
 /* Fourth section */
 .team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .team-prof {
@@ -209,7 +216,7 @@ ul {
   text-align: center;
 }
 .foto-team {
-  margin-bottom: 30px;
+  display: block;
 }
 .fourth-blocks {
   display: flex;
@@ -217,6 +224,10 @@ ul {
 }
 .fourth-blocks .fourth-item:not(:last-child) {
   margin-right: 30px;
+}
+.name-prof {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* Page portfolio */
 .btn-portfol {
@@ -231,8 +242,18 @@ ul {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 6px, 22px, 6px, 22px;
 }
-
+.our-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.our-item:nth-child(3n) {
+  margin-right: 0;
+}
+.our-item:nth-last-child(-1n + 3) {
+  margin-bottom: 0;
+}
 .btn-portfol:hover,
 .btn-portfol:focus {
   background-color: var(--button-wordfirst-color);
@@ -240,21 +261,15 @@ ul {
 }
 .our-block {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
-.our-block .our-item {
-  margin-bottom: 30px;
-}
-.our-item {
-  border: 1px solid #eeeeee;
-}
+
 .bottom-section .botsec-item:not(:last-child) {
   margin-right: 8px;
 }
 .bottom-section {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .name-client {
@@ -271,7 +286,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--text-other-color);
   text-decoration: none;
-  padding-left: 24px;
 }
 .firma-client {
   font-weight: 700;
@@ -280,12 +294,23 @@ ul {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   margin-bottom: 4px;
+}
+.foto-client {
+  display: block;
+  margin-bottom: 0;
+}
+.firm-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /* Footer */
 .all-adr {
-  display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -297,25 +322,26 @@ ul {
 .bgrfoot-color {
   background-color: var(--footer-herobgr-color);
   padding-top: 60px;
-  padding-left: 215px;
+  padding-bottom: 60px;
+  max-width: 1600px;
 }
 .secondword {
+  display: block;
   color: var(--color-white-fontbgr);
   text-shadow: none;
-}
-.foot-blocks {
   margin-bottom: 30px;
 }
+
 .fotadr {
+  display: block;
   margin-bottom: 9px;
 }
 .all-adr .adr-foot {
   margin-bottom: 9px;
 }
-.all-adr .adr-foot:last-child {
-  margin-bottom: 60px;
-}
+
 .adr-foot {
+  display: block;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -325,8 +351,4 @@ ul {
 .adr-foot:hover,
 .adr-foot:focus {
   color: var(--button-wordfirst-color);
-}
-
-.foto-client {
-  margin-bottom: 20px;
 }
