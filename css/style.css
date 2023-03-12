@@ -323,7 +323,7 @@ ul {
   background-color: var(--footer-herobgr-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  max-width: 1600px;
+  width: 1600px;
 }
 .secondword {
   display: block;
