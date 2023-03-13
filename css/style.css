@@ -116,6 +116,10 @@ ul {
 /* Hero */
 .hero {
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-herobgr-color);
 }
 .hero-topic {
@@ -231,18 +235,16 @@ ul {
 }
 /* Page portfolio */
 .btn-portfol {
-  width: 125px;
-  height: 38px;
-  left: 593px;
-  top: 174px;
   background-color: var(--button-portfolio-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
-  padding: 6px, 22px, 6px, 22px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
 }
 .our-item {
   margin-right: 30px;
@@ -317,13 +319,13 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-white-fontbgr);
-  flex-direction: column;
 }
 .bgrfoot-color {
   background-color: var(--footer-herobgr-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .secondword {
   display: block;
@@ -347,6 +349,9 @@ ul {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.all-adr .tlf-foot {
+  margin-bottom: 0;
 }
 .adr-foot:hover,
 .adr-foot:focus {
